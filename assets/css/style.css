@@ -1,30 +1,30 @@
-
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  background-color: rgb(44, 41, 38);
 }
-
-header {
+a{
+  text-decoration: none;
+}
+#main-header {
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 60px;
-  position: absolute;
-  width: 100%;
-  box-sizing: border-box;
-  top: 0;
-  left: 0;
+  padding: 0px 20px;
+  background-color: rgb(29, 26, 24);
 }
 #logo {
-  color: rgb(245, 243, 160);
+  color: rgb(238, 167, 80);
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
-  font-size: 50px;
+  font-size: 24px;
+  font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
-header > nav > ul {
+#main-header > nav > ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -32,19 +32,19 @@ header > nav > ul {
   flex-direction: row;
   justify-content: space-between;
 }
-header > nav > ul > li {
-  margin-left: 20px;
+#main-header > nav > ul > li {
+  margin: 0 16px;
 }
-header > nav > ul > li > a {
+#main-header > nav > ul > li > a {
   font-size: 14px;
-  text-decoration: none;
-  color: rgb(255, 251, 0);
   font-weight: bold;
+  color: rgb(238, 167, 80);
 }
-header > nav > ul > li > a:hover {
+#main-header > nav > ul > li > a:hover {
   color: #000;
-  background-color: rgb(255, 251, 0);
   padding: 12px 24px;
+  background-color: rgb(238, 167, 80);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -55,8 +55,28 @@ header > nav > ul > li > a:hover {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  box-shadow: 2px 4px 8px rgb(68, 67, 67);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
