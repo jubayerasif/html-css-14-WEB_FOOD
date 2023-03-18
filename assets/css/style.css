@@ -106,8 +106,9 @@ main h1{
 }
 .btn:hover{
   color: #000;
-  background-color: rgb(221, 134, 34);
   font-weight: bold;
+  background-color: rgb(221, 134, 34);
+  box-shadow: 2px 4px 8px rgb(144, 144, 144);
   transition: .5s;
   -webkit-transition: .5s;
   -moz-transition: .5s;
