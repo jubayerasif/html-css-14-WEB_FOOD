@@ -75,6 +75,12 @@ main h1{
   margin: 0;
   padding: 0;
 }
+
+#latest-products > ul > li > article > img{
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+}
 .food-items{
   background-color: rgb(228, 226, 182);
   overflow: hidden;
@@ -84,15 +90,30 @@ main h1{
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
-#latest-products > ul > li > article > img{
-  height: 240px;
-  width: 100%;
-  object-fit: cover;
+.food-item-content{
+  padding: 16px;
+  text-align: center;
 }
-
-
-
-
+.btn{
+  color: #fff;
+  padding: 8px 24px;
+  background-color: rgb(228, 157, 44);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.btn:hover{
+  color: #000;
+  background-color: rgb(221, 134, 34);
+  font-weight: bold;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
 
 
 
