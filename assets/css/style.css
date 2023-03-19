@@ -94,6 +94,9 @@ main h1{
   padding: 16px;
   text-align: center;
 }
+h2{
+  font-size: 100%;
+}
 .btn{
   color: #fff;
   padding: 8px 24px;
