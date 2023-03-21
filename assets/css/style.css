@@ -10,18 +10,18 @@ ul{
   list-style: none;
 }
 #main-header {
-  height: 80px;
+  height: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 20px;
+  padding: 0 5%;
   background-color: rgb(29, 26, 24);
 }
 #logo {
   color: rgb(238, 167, 80);
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
@@ -35,10 +35,10 @@ ul{
   justify-content: space-between;
 }
 #main-header > nav > ul > li {
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 #main-header > nav > ul > li > a {
-  font-size: 14px;
+  font-size: 1.25rem;
   font-weight: bold;
   color: rgb(238, 167, 80);
 }
@@ -66,42 +66,39 @@ main h1{
 }
 #latest-products{
   width: 80%;
-  margin: 50px auto;
+  margin: 2rem auto;
 }
 #latest-products ul{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 1rem;
   margin: 0;
   padding: 0;
-}
-
-#latest-products > ul > li > article > img{
-  height: 240px;
-  width: 100%;
-  object-fit: cover;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
 }
 .food-items{
   background-color: rgb(228, 226, 182);
   overflow: hidden;
+  list-style: none;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+.food-items img{
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
 .food-item-content{
-  padding: 16px;
+  padding: 1rem;
   text-align: center;
   font-size: 24px;
 }
-h2{
-  /* font-size: 100%; */
-  font-size: 2rem;
-}
 .btn{
   color: #fff;
-  padding: 8px 24px;
+  padding: 0.5rem 1.5rem;
   background-color: rgb(228, 157, 44);
   border-radius: 4px;
   -webkit-border-radius: 4px;
