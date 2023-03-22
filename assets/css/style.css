@@ -138,5 +138,7 @@ footer > ul > li > a > img {
 
 
 @media (max-width: 768px) {
-  
+  #latest-products ul{
+    grid-template-columns: 100%;
+  }
 }
