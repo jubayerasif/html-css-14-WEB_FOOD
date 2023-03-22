@@ -61,7 +61,7 @@ ul{
 
 main h1{
   text-align: center;
-  font-size: 38px;
+  font-size: 3rem;
   color: rgb(238, 167, 80);
 }
 #latest-products{
@@ -137,8 +137,15 @@ footer > ul > li > a > img {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
+  #main-header > nav{
+    display: none;
+  }
+  main h1{
+    font-size: 1.5rem;
+  }
   #latest-products ul{
     grid-template-columns: 100%;
   }
+  
 }
