@@ -137,6 +137,6 @@ footer > ul > li > a > img {
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   
 }
