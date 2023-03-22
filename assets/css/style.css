@@ -87,6 +87,13 @@ ul{
   margin: 0;
   padding: 4rem;
 }
+#side-drawer li{
+  margin: 1rem 0;
+}
+#side-drawer a{
+  color: rgb(253, 239, 213);
+  font-size: 3rem;
+}
 main h1{
   text-align: center;
   font-size: 3rem;
