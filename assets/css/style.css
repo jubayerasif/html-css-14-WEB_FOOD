@@ -83,6 +83,14 @@ ul {
 #side-drawer:target{
   display: block;
 }
+#side-drawer header {
+  height: 5rem;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(29, 26, 24);
+}
 #side-drawer ul {
   list-style: none;
   display: flex;
@@ -135,6 +143,9 @@ main h1 {
   padding: 1rem;
   text-align: center;
   font-size: 24px;
+}
+.food-items h2{
+  margin: 0 0 1rem 0;
 }
 .btn {
   color: #fff;
